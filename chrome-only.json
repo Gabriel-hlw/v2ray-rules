@@ -1,0 +1,14 @@
+[
+  {
+    "outboundTag": "proxy",
+    "process": [
+      "chrome.exe"
+    ],
+    "description": "Chrome浏览器走代理"
+  },
+  {
+    "outboundTag": "direct",
+    "network": "udp,tcp",
+    "description": "其他所有流量直连"
+  }
+]

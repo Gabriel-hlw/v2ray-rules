@@ -3,7 +3,6 @@
     "outboundTag": "proxy",
     "process": [
       "chrome.exe"
-      "Telegram.exe"
     ],
     "description": "Chrome浏览器走代理"
   },

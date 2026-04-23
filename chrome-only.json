@@ -2,9 +2,16 @@
   {
     "outboundTag": "proxy",
     "process": [
-      "chrome.exe"
+      "chrome.exe",
+      "Telegram.exe"
     ],
-    "description": "Chrome浏览器走代理"
+    "domain": [
+      "geosite:telegram"
+    ],
+    "ip": [
+      "geoip:telegram"
+    ],
+    "description": "Chrome和Telegram走代理"
   },
   {
     "outboundTag": "direct",
